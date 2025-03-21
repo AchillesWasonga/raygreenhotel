@@ -1,6 +1,9 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
+import Navbar from "../components/Navbar";
+
+
 
 export default function Home() {
   return (
@@ -49,7 +52,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="w-full py-6 text-center bg-black text-white">
-        <p>Copyright 2025 • All rights reserved • RayGreen</p>
+        <p>Copyright 2025 • All rights reserved • RayGreen. James Chuchu</p>
       </footer>
     </div>
   );
